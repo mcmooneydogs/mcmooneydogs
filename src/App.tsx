@@ -481,7 +481,7 @@ Drie jaar geleden hebben wij ons gezin uitgebreid met onze tweede Cobberdog, Kat
                     </div>
                     <div>
                       <p className="text-sm text-brand-ink/60">Email ons op</p>
-                      <p className="font-bold">info@cobberdogsnederland.nl</p>
+                      <p className="font-bold">info@mcmooneydogs.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
