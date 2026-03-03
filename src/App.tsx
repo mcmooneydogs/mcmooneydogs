@@ -56,7 +56,7 @@ const BREEDING_DOGS: DogProfile[] = [
     temperament: 'Zachtaardig, intelligent en zeer mensgericht.',
     dnaStatus: 'Vrij van alle erfelijke aandoeningen (DNA getest).',
     image: katy,
-    description: 'zet hier je eigen tekst'
+    description: ''
   }
 ];
 
