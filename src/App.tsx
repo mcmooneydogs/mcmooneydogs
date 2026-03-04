@@ -89,11 +89,16 @@ export default function App() {
   const [selectedImage, setSelectedImage] = useState(null);
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-    setIsMenuOpen(false);
+  
+    setIsMenuOpen(false); // close mobile menu first
     setActiveTab(id);
+  
+    if (element) {
+      setTimeout(() => {
+        const y = element.getBoundingClientRect().top + window.scrollY - 80;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }, 200); // wait for mobile menu animation
+    }
   };
 
   return (
