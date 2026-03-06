@@ -281,6 +281,7 @@ export default function App() {
 Mijn eerste Cobberdog, Anna, heb ik met veel toewijding opgeleid tot psychosociale hulphond. Dit prachtige ras staat bekend om zijn zachtaardige karakter, intelligentie en sterke mensgerichtheid. Daardoor is de Australian Cobberdog uitermate geschikt als hulphond, maar ook als trouwe gezinshond en echte knuffelmaatje.
 
 Drie jaar geleden hebben wij ons gezin uitgebreid met onze tweede Cobberdog, Katy. Katy is ontzettend slim, gevoelig en leergierig. Ze heeft een stabiel en liefdevol karakter en luistert uitzonderlijk goed. Dit jaar heeft zij haar eerste nestje pups gekregen – een bijzondere mijlpaal waar wij enorm trots op zijn.
+Ons gezin werd nog completer toen wij Lily adopteerden, een Nepalese straathond die wij vanuit Nepal naar Nederland hebben gehaald. Ze is een onmisbaar deel van onze familie geworden.
 
         </p>
 
