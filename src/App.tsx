@@ -564,25 +564,32 @@ onSubmitForm={() => console.log('Form submitted')}
       </footer>
       {/* Lightbox overlay */}
       <AnimatePresence>
-        {selectedImage && (
-          <motion.div
-            className="fixed inset-0 bg-black/70 flex items-center justify-center z-[999] p-6"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={() => setSelectedImage(null)}
-          >
-            <motion.img
-              src={selectedImage}
-              alt="Enlarged puppy"
-              className="max-w-4xl max-h-[90vh] rounded-3xl shadow-2xl bg-white"
-              initial={{ scale: 0.85 }}
-              animate={{ scale: 1 }}
-              exit={{ scale: 0.85 }}
-              onClick={(e) => e.stopPropagation()}
-            />
-          </motion.div>
-        )}
+      {selectedImage && (
+  <motion.div
+    className="fixed inset-0 bg-black/70 flex items-center justify-center z-[999] p-6"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    onClick={() => setSelectedImage(null)}
+  >
+    <div className="relative max-w-4xl w-full" onClick={(e) => e.stopPropagation()}>
+      <button
+        onClick={() => setSelectedImage(null)}
+        className="absolute -top-4 -right-4 z-10 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-gray-100 transition-colors"
+      >
+        <X className="w-5 h-5 text-brand-ink" />
+      </button>
+      <motion.img
+        src={selectedImage}
+        alt="Enlarged puppy"
+        className="w-full max-h-[90vh] object-contain rounded-3xl shadow-2xl bg-white"
+        initial={{ scale: 0.85 }}
+        animate={{ scale: 1 }}
+        exit={{ scale: 0.85 }}
+      />
+    </div>
+  </motion.div>
+)}
       </AnimatePresence>
     </div>
 
