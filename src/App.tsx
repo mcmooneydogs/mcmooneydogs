@@ -433,8 +433,6 @@ Ons gezin werd nog completer toen wij Lily adopteerden, een Nepalese straathond 
                   ))}
                 </ul>
                 <div className="border-t border-brand-olive/10 pt-8">
-                  <p className="text-sm text-brand-ink/60 mb-2">Investering per pup</p>
-                  <p className="text-4xl font-bold text-brand-olive mb-6">€ 3000</p>
                   <button 
                   onClick={() => scrollToSection('contact')}
                   className="w-full bg-brand-olive text-white py-4 rounded-full font-bold hover:bg-brand-olive/90 transition-all">
