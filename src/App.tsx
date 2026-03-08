@@ -22,7 +22,7 @@ import {
   Phone
 } from 'lucide-react';
 import { DogProfile, FAQItem, Step } from './types';
-import logo from '/assets/mcmooneylogo.jpg';
+import logo from '/assets/mcmooneylogo.png';
 import katy from '/assets/katy.jpeg';
 import saskia from '/assets/saskia.jpeg';
 import dog1 from '/assets/1.svg';
