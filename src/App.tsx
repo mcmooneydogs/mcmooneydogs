@@ -28,7 +28,7 @@ import saskia from '/assets/saskia.jpeg';
 import dog1 from '/assets/1.svg';
 import dog2 from '/assets/2.jpeg';
 import dog3 from '/assets/3.svg';
-import dog4 from '/assets/4.svg';
+import dog4 from '/assets/4.jpeg';
 import dog5 from '/assets/5.svg';
 import dog6 from '/assets/6.svg';
 import dog7 from '/assets/7.svg';
