@@ -617,7 +617,7 @@ function WhatsAppButton({ phoneNumber }: { phoneNumber: string }) {
   const now = new Date();
   const day = now.getDay(); // 0 = Sunday, 6 = Saturday
   const hour = now.getHours();
-  const isOpen = day >= 1 && day <= 5 && hour >= 9 && hour < 18;
+  const isOpen = day >= 0 && day <= 6 && hour >= 9 && hour < 20;
 
   return (
     <div className="fixed bottom-6 right-6 z-[9999] flex flex-col items-end gap-3">
