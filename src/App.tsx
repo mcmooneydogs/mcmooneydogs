@@ -662,7 +662,7 @@ function WhatsAppButton({ phoneNumber }: { phoneNumber: string }) {
                 <p>Weekend: 10:00 – 17:00</p>
               </div>
               <a
-                href={`https://wa.me/${phoneNumber}?text=Hallo%2C%20ik%20heb%20een%20vraag%20over%20de%20Australian%20Cobberdog.`}
+                href={`https://wa.me/${phoneNumber}?text=Hallo%2C%20ik%20heb%20interesse%20in%20een%20Australian%20Cobberdog.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full bg-[#25D366] hover:bg-[#1ebe5d] text-white font-semibold py-3 rounded-xl transition-colors text-sm"
