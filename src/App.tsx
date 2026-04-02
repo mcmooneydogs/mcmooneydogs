@@ -658,8 +658,8 @@ function WhatsAppButton({ phoneNumber }: { phoneNumber: string }) {
               </p>
               <div className="bg-gray-50 rounded-xl px-4 py-3 mb-4 text-xs text-brand-ink/60 space-y-1">
                 <p className="font-semibold text-brand-ink/80 mb-1">Openingstijden</p>
-                <p>Maandag – vrijdag: 09:00 – 18:00</p>
-                <p>Weekend: Gesloten</p>
+                <p>Maandag – vrijdag: 09:00 – 20:00</p>
+                <p>Weekend: 10:00 – 17:00</p>
               </div>
               <a
                 href={`https://wa.me/${phoneNumber}?text=Hallo%2C%20ik%20heb%20een%20vraag%20over%20de%20Australian%20Cobberdog.`}
