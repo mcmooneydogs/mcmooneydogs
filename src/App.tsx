@@ -502,7 +502,7 @@ Ons gezin werd nog completer toen wij Lily adopteerden, een Nepalese straathond 
                     </div>
                     <div>
                       <p className="text-sm text-brand-ink/60">Bel ons op</p>
-                      <p className="font-bold">+31 (0)6-58855123</p>
+                      <p className="font-bold">+31 (0)6-83254144</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
