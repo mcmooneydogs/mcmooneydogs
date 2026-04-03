@@ -25,16 +25,14 @@ import { DogProfile, FAQItem, Step } from './types';
 import logo from '/assets/mcmooneylogo.png';
 import katy from '/assets/katy.jpeg';
 import saskia from '/assets/saskia.jpeg';
-import dog1 from '/assets/1.svg';
-import dog2 from '/assets/2.jpeg';
-import dog3 from '/assets/3.svg';
-import dog4 from '/assets/4.jpeg';
-import dog5 from '/assets/5.svg';
-import dog6 from '/assets/6.svg';
-import dog7 from '/assets/7.svg';
-import dog8 from '/assets/8.svg';
-import dog9 from '/assets/9.svg';
-import dog10 from '/assets/10.svg';
+import dog1 from '/assets/15.svg';
+import dog2 from '/assets/16.svg';
+import dog3 from '/assets/hondje (1).jpg';
+import dog4 from '/assets/hondje (2).jpg';
+import dog5 from '/assets/hondje (3).jpg';
+import dog6 from '/assets/hondje (4).jpg';
+import dog7 from '/assets/hondje (5).jpg';
+import dog8 from '/assets/ontwerp zonder titel (27).jpg';
 import FormfacadeEmbed from "@formfacade/embed-react";
 
 const NAV_ITEMS = [
@@ -266,8 +264,6 @@ export default function App() {
           <img src={dog6} alt="Puppy" onClick={() => setSelectedImage(dog6)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
           <img src={dog7} alt="Puppy" onClick={() => setSelectedImage(dog7)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
           <img src={dog8} alt="Puppy" onClick={() => setSelectedImage(dog8)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
-          <img src={dog9} alt="Puppy" onClick={() => setSelectedImage(dog9)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
-          <img src={dog10} alt="Puppy" onClick={() => setSelectedImage(dog10)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
         </div>
       </motion.div>
     </div>
