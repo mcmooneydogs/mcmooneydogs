@@ -32,7 +32,7 @@ import dog4 from '/assets/hondje (2).jpg';
 import dog5 from '/assets/hondje (3).jpg';
 import dog6 from '/assets/hondje (4).jpg';
 import dog7 from '/assets/hondje (5).jpg';
-import dog8 from '/assets/ontwerp zonder titel (27).jpg';
+import dog8 from '/assets/Ontwerp zonder titel (27).jpg';
 import FormfacadeEmbed from "@formfacade/embed-react";
 
 const NAV_ITEMS = [
