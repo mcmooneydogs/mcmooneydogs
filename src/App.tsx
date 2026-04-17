@@ -25,14 +25,7 @@ import { DogProfile, FAQItem, Step } from './types';
 import logo from '/assets/mcmooneylogo.png';
 import katy from '/assets/katy.jpeg';
 import saskia from '/assets/saskia.jpeg';
-import dog1 from '/assets/15.svg';
-import dog2 from '/assets/16.svg';
-import dog3 from '/assets/hondje (1).jpg';
-import dog4 from '/assets/hondje (2).jpg';
-import dog5 from '/assets/hondje (3).jpg';
-import dog6 from '/assets/hondje (4).jpg';
-import dog7 from '/assets/hondje (5).jpg';
-import dog8 from '/assets/Ontwerp zonder titel (27).jpg';
+import dog1 from '/assets/white.png';
 import FormfacadeEmbed from "@formfacade/embed-react";
 
 const NAV_ITEMS = [
@@ -234,8 +227,8 @@ export default function App() {
 
         <div className="bg-brand-cream p-8 rounded-3xl border border-brand-olive/10 mb-8">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="font-semibold text-brand-olive">Nu Beschikbaar</span>
+            <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+            <span className="font-semibold text-brand-olive">Momenteel Niet Beschikbaar</span>
           </div>
 
           <p className="text-brand-ink/80 italic mb-4"></p>
@@ -257,13 +250,6 @@ export default function App() {
       >
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
           <img src={dog1} alt="Puppy" onClick={() => setSelectedImage(dog1)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
-          <img src={dog2} alt="Puppy" onClick={() => setSelectedImage(dog2)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
-          <img src={dog3} alt="Puppy" onClick={() => setSelectedImage(dog3)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
-          <img src={dog4} alt="Puppy" onClick={() => setSelectedImage(dog4)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
-          <img src={dog5} alt="Puppy" onClick={() => setSelectedImage(dog5)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
-          <img src={dog6} alt="Puppy" onClick={() => setSelectedImage(dog6)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
-          <img src={dog7} alt="Puppy" onClick={() => setSelectedImage(dog7)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
-          <img src={dog8} alt="Puppy" onClick={() => setSelectedImage(dog8)} className="w-full aspect-square object-cover rounded-[2rem] shadow-2xl cursor-pointer" />
         </div>
       </motion.div>
     </div>
@@ -431,7 +417,6 @@ Ons gezin werd nog completer toen wij Lily adopteerden, een Nepalese straathond 
                     "Eerste vaccinaties & ontworming",
                     "Microchip & registratie",
                     "Uitgebreid Puppy Guide handboek",
-                    "Levenslange ondersteuning & advies",
                     "Puppypakket met voer & speeltjes"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-3">
